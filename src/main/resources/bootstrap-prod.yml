@@ -1,0 +1,13 @@
+server:
+   port: 8200
+---
+spring:
+   application:
+      name: quizer-assessment-server
+---
+spring:
+   cloud:
+      config:
+         uri: https://server:8888
+        
+        
